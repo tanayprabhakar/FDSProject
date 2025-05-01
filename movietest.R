@@ -15,7 +15,7 @@ library(car)
 
 
 # Load dataset
-IMDB <- read.csv("C:\\Users\\tanay\\Academia\\Developer\\FDSProj\\movie\\movie_metadata.csv")
+IMDB <- read.csv("movie_metadata.csv")
 str(IMDB) # Check structure of dataset
 
 # Remove duplicate rows
