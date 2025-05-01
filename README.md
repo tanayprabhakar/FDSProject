@@ -24,7 +24,7 @@ This project classifies films into four IMDb score categories (*Bad*, *OK*, *Goo
 1. **Clone the repository**
    ```bash
    git clone https://github.com/tanayprabhakar/FDSProj.git
-   cd imdb-score-prediction
+   cd FDSProj
    ```
 
 2. **Install R dependencies**
@@ -43,11 +43,11 @@ This project classifies films into four IMDb score categories (*Bad*, *OK*, *Goo
 
 3. **Project structure**
    ```text
-   imdb-score-prediction/
-   │   └── movie_metadata.csv
-   │   ├── data_preprocessing.R
-   │   ├── rf_model.rds
-   │   └── knn_model.rds
+   FDSProj/
+   │── movie_metadata.csv
+   │── data_preprocessing.R
+   │── rf_model.rds
+   │── knn_model.rds
    ├── README.md
    ```
 
